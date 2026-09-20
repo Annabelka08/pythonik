@@ -1,0 +1,5 @@
+total=int(input("Введите количество участников "))
+capacity=int(input("Введите количество участников в команде "))
+print(f"Полных {total//capacity} ")
+print(f"Остаток {total%capacity} ")
+print(f"Всего {(total + capacity -1)//capacity}")
