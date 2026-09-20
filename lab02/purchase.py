@@ -1,0 +1,5 @@
+price=int(input("Введите цену одной тетради "))
+count=int(input("Введите количество "))
+paid=int(input("Введите переданную сумму "))
+print(f'Стоимость {price*count}')
+print(f'Сдача {paid-(count*price)}')
