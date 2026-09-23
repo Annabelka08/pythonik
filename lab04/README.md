@@ -75,8 +75,11 @@
 Пример кода:
 
 python
+
 total = 0
+
 for i in range(1, 5):
+
     total = total + i
     
 | Итерация | Значение `i` до тела | `total` до | `total` после |
