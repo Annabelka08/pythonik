@@ -10,5 +10,6 @@
    ```bash
    python main.py
 2. Запуск автоматических проверок (тестов):
+   ```bash
    python test_functions.py
    
